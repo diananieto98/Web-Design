@@ -1,33 +1,48 @@
-p {
-    text-align: center;
-    font-size: small;
+@font-face {
     font-family: 'blackberryjam';
-    src: url('fonts/BlackberryJamPersonalUser-rXOB.ttf') format('truetype')
-}
-
-body {
-    background-color: rgb(255, 193, 182);
-    background-image: url("images/pastelbackground.png");
-    background-size: 100% 100%;
-}
-
-h1 {
-    text-align: center;
-    font-size: x-large;
-    font-family: 'blackberryjam';
-    color: #ffffbd
-}
-
-h3 {
-    text-align: center;
-    font-size: large;
-    font-family: 'blackberryjam';
-    color: #ffffbd
+    src: url('../fonts/BlackberryJamPersonalUse-rXOB.ttf') format('truetype')
 }
 
 .font {
     font-family: 'blackberryjam';
+    src: url('../fonts/BlackberryJamPersonalUse-rXOB.ttf') format('truetype')
 }
+
+body {    
+    background-image: url("images/pastelbackground.png");
+    background-color: rgb(255, 193, 182);
+    background-size: 100% 100%;
+}
+
+footer{
+    background-color: peachpuff;
+    padding: 20px;
+    width: 100%;
+    position: rel;
+    bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: peachpuff;
+}
+
+h2 {
+    text-align: left;
+    font-size: medium;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: peachpuff;
+}
+
+h3 {
+    text-align: right;
+    font-size: small;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffbd;
+}
+
 
 .center {
     display: block;

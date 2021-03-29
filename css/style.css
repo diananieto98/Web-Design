@@ -37,11 +37,68 @@ body {
 
 /* footer tag */
 footer{
-    background-color: peachpuff;
-    padding: 35px;
+    background-color: #ffffbd;
+    padding: 10px;
     width: 100%;
-    position: rel;
-    bottom: 35px;
+    position: relative;
+    bottom: 0px;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(255, 193, 182);
+}
+
+p{
+    display: inline;
+    padding: 10px 20px;
+}
+
+/* hoverlinks */
+
+#Character_Design{
+    background: url(../images/Peach\ cloud.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 15px;
+    text-align: center;
+    color:#ffffbd;
+}
+
+#Sketches{
+    background: url(../images/Peach\ cloud.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 15px;
+    text-align: center;
+    color:#ffffbd;
+}
+
+#Digital_Art{
+    background: url(../images/Peach\ cloud.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 15px;
+    text-align: center;
+    color: #ffffbd;
+}
+
+#About_Me{
+    background: url(../images/Peach\ cloud.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 15px;
+    text-align: center;
+    color: #ffffbd;
+}
+
+.hoverlinks li{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline;
+    padding: 25px;
 }
 
 /* headers */
@@ -52,16 +109,14 @@ h1{
     color: peachpuff;
 }
 
-h2{
-    color: #ffffbd;
-    text-align: center;
-    font-size: 25px;
-    font-family: 'blackberryjam';
-}
-
 h3{
     text-align: center;
     font-size: 25px;
     font-family: 'blackberryjam';
     color: #ffffbd;
+}
+
+#formContainer{
+    width: 50vw;
+    margin:auto;
 }

@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'blackberryjam';
+    src: url('../fonts/BlackberryJamPersonalUse-rXOB.ttf') format('truetype');
+}
+
+.fontJam {
+    font-family: 'blackberryjam';
+    src: url('../fonts/BlackberryJamPersonalUse-rXOB.ttf') format('truetype');
+}
+
+body {    
+    background-image: url(../images/Page_BG.png);
+    background-color: rgb(255, 193, 182);
+    background-size: 100vw 100vh;
+}
+
+/* center image */
+.center {
+    /* display: block; */
+    margin-left: auto;
+    /* width: 45%; */
+}
+
+#Page {
+    background-image: url(../images/Page.png);
+    height: 80vh;
+    width: 45vw;
+    background-repeat: no-repeat;
+    background-position: left;
+    /* width: 45%; */
+}
+
+/* headers */
+h1{
+    text-align: left;
+    font-size: 45px;
+    font-family: 'blackberryjam';
+    color: peachpuff;
+}
+
+p{
+    text-align: left;
+    font-size: 15px;
+    font-family: 'blackberryjam';
+    color: peachpuff;
+}
+
+#formContainer{
+    width: 50vw;
+    margin:auto;
+}

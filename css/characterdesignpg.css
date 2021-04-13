@@ -20,32 +20,60 @@ body {
     margin-left: auto;
     /* width: 45%; */
 }
-
+/* 
 #Page {
     background-image: url(../images/Page.png);
     height: 80vh;
     width: 45vw;
     background-repeat: no-repeat;
     background-position: left;
-    /* width: 45%; */
-}
+ 
+} */
 
 /* headers */
 h1{
-    text-align: left;
-    font-size: 45px;
+    text-align: center;
+    font-size: 60px;
     font-family: 'blackberryjam';
     color: peachpuff;
 }
-
+/* 
 p{
-    text-align: left;
+    text-align: center;
     font-size: 15px;
     font-family: 'blackberryjam';
     color: peachpuff;
-}
+} */
 
 #formContainer{
     width: 50vw;
-    margin:auto;
+    margin: auto;
+}
+
+.charCol{
+    margin: auto;
+    z-index: 200;
+}
+
+.colImg{
+    display:block;
+    margin-right: auto;
+    margin-left:auto;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    width: 50vw;
+    margin: auto;
+    text-align: center;
+}
+
+/* footer tag */
+footer{
+    height: 30px !important;
+    grid-row: 5;
+    grid-column: 1/-1;
+    background-color: #ffffbd;
+    text-align: center;
+    color: rgb(255, 193, 182);
 }

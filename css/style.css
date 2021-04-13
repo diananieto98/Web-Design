@@ -3,6 +3,11 @@
     src: url('../fonts/BlackberryJamPersonalUse-rXOB.ttf') format('truetype');
 }
 
+html,body{
+    margin:0;
+    padding:0;
+}
+
 .fontJam {
     font-family: 'blackberryjam';
     src: url('../fonts/BlackberryJamPersonalUse-rXOB.ttf') format('truetype');
@@ -12,7 +17,26 @@
 body {    
     background-image: url(../images/pastelbackground.png);
     background-color: rgb(255, 193, 182);
-    background-size: 100vw 100vh;
+    max-height: 100vh;
+    z-index: 0;
+}
+/* 
+body{
+    max-height: 100vh;
+} */
+
+#container{
+    display: grid;
+    grid-template-columns: auto auto auto 45vw auto auto auto ; 
+    grid-template-rows: repeat(6, 1fr) ; 
+    height: 100vh;
+   /* define 5 columns and 4 rows: ; */
+}
+
+#colorTest{
+    background-color: black;
+    grid-column: 3;
+    grid-row: 2;
 }
 
 /* center image */
@@ -23,12 +47,27 @@ body {
     /* width: 50%; */
 }
 
+div > a {
+    font-size: 25px;
+    text-align: center;
+}
+
+/* #square{
+    grid-row: 1/4;
+    grid-column: 4/5;
+    background-color:black;
+} */
+
+
 #Molly_Icon_1 {
+    grid-row: 1/4;
+    grid-column: 4/5;
     background-image: url(../images/Molly_Icon_1.png);
-    height: 50vh;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    /* width: 50%; */
+    z-index: 10;
+    /* text-align: center; */
 }
 
 #Molly_Icon_1:hover {
@@ -37,12 +76,10 @@ body {
 
 /* footer tag */
 footer{
+    height: 30px !important;
+    grid-row: 5;
+    grid-column: 1/-1;
     background-color: #ffffbd;
-    padding: 10px;
-    width: 100%;
-    position: relative;
-    bottom: 0px;
-    font-size: 15px;
     text-align: center;
     color: rgb(255, 193, 182);
 }
@@ -50,14 +87,19 @@ footer{
 p{
     display: inline;
     padding: 10px 20px;
+    font-size: 25px;
+    text-align: center;
 }
 
 /* hoverlinks */
 
 #Character_Design{
-    background: url(../images/Peach\ cloud.png);
+    grid-row: 2;
+    grid-column: 3;
+    background: url(../images/peach_cloud.png);
     background-repeat: no-repeat;
     background-size: contain;
+    /* background-size: cover; */
     background-position: center;
     font-size: 15px;
     text-align: center;
@@ -65,9 +107,12 @@ p{
 }
 
 #Sketches{
-    background: url(../images/Peach\ cloud.png);
+    grid-row: 3;
+    grid-column: 2;
+    background: url(../images/peach_cloud.png);
     background-repeat: no-repeat;
     background-size: contain;
+      /* background-size: cover; */
     background-position: center;
     font-size: 15px;
     text-align: center;
@@ -75,20 +120,26 @@ p{
 }
 
 #Digital_Art{
-    background: url(../images/Peach\ cloud.png);
+    grid-row: 3;
+    grid-column: 6;
+    background: url(../images/peach_cloud.png);
     background-repeat: no-repeat;
     background-size: contain;
+      /* background-size: cover; */
     background-position: center;
     font-size: 15px;
     text-align: center;
     color: #ffffbd;
 }
 
-#About_Me{
-    background: url(../images/Peach\ cloud.png);
+#Photography{
+    grid-row: 2;
+    grid-column: 5;
+    background: url(../images/peach_cloud.png);
     background-repeat: no-repeat;
     background-size: contain;
     font-size: 15px;
+    background-position: center;
     text-align: center;
     color: #ffffbd;
 }
@@ -100,6 +151,8 @@ p{
     display: inline;
     padding: 25px;
 }
+
+
 
 /* headers */
 h1{

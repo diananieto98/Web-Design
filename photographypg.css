@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'blackberryjam';
+    src: url('../fonts/BlackberryJamPersonalUse-rXOB.ttf') format('truetype');
+}
+
+.fontJam {
+    font-family: 'blackberryjam';
+    src: url('../fonts/BlackberryJamPersonalUse-rXOB.ttf') format('truetype');
+}
+
+body {    
+    background-image: url(../images/About_Me_BG.png);
+    background-color: rgb(255, 193, 182);
+    background-size: 100vw 100vh;
+}
+
+/* center image */
+.center {
+    /* display: block; */
+    margin-left: auto;
+    /* width: 45%; */
+}
+
+/* #Page {
+    background-image: url(../images/Page.png);
+    height: 80vh;
+    width: 45vw;
+    background-repeat: no-repeat;
+    background-position: left;
+} */
+
+/* headers */
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'blackberryjam';
+    color: peachpuff;
+}
+
+/* p{
+    text-align: left;
+    font-size: 15px;
+    font-family: 'blackberryjam';
+    color: peachpuff;
+} */
+
+#formContainer{
+    width: 50vw;
+    margin:auto;
+}
+
+.phoCol{
+    margin: auto;
+    z-index: 200;
+}
+
+.colImg{
+    display:block;
+    margin-right: auto;
+    margin-left:auto;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    width: 50vw;
+    margin: auto;
+    text-align: center;
+}
+
+/* footer tag */
+footer{
+    height: 30px !important;
+    grid-row: 5;
+    grid-column: 1/-1;
+    background-color: #ffffbd;
+    text-align: center;
+    color: rgb(255, 193, 182);
+}
